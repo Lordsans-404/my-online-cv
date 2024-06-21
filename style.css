@@ -1,0 +1,61 @@
+/* Fonts */
+@font-face{
+	font-family: telegraf;
+	src: url(fonts/telegraf.otf);
+}
+
+@font-face{
+	font-family: tthoves;
+	src: url(fonts/tthoves.ttf);
+}
+
+@font-face{
+	font-family: tthoves;
+	src: url(fonts/tthoves-b.ttf);
+	font-weight: bold;
+}
+
+*{
+	font-family: tthoves;
+}
+
+@media (max-width: 768px) {
+	.section p{
+		font-size: calc(.1rem + 2.4vh)!important;
+	}
+
+	.text p{
+		font-size: calc(.1rem + 2.4vh)!important;
+	}
+	.content-icon{
+		width: calc(2.3rem + 2.5vh)!important;
+	}
+}
+
+
+.ff-telegraf{
+	font-family: telegraf;
+	text-transform: uppercase;
+	letter-spacing: 0.12rem;
+}
+
+.row-header{
+	font-size: calc(.18rem + 2.4vh)!important;
+}
+
+.text p{
+	font-size: calc(.1rem + 1.6vw);
+}
+.section p{
+	font-size: calc(.1rem + 1.4vw);
+}
+
+.content-icon{
+	width: calc(2.3rem + 2.5vw);
+}
+
+.row .row-header{
+	font-weight: bold;
+	background-color: #e0effa;
+	padding: 10px 15px;
+}
